@@ -34,3 +34,6 @@
 
 ## What is the Big-O time complexity of deallocate()? Explain why.
 ## It is O(1). deallocate() just pushes a block onto the stack, appending it to the vector. There is no need to iterate through the entire vector.
+
+## AI Use
+Gemini was used to explain the usage of size_t, ptrdiff_t and to help implement the getValidBlockIndex function in MemoryPool.cpp.
